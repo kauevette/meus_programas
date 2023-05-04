@@ -7,11 +7,11 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+    background: linear-gradient(#555852 50%, #000 50%);
 }
 
 .container{
-    background-color: #1e293b;
+    background-color: #fdfdfd;
     padding: 35px 20px 38px;
     width: 90vh;
     max-width: 512px;
@@ -32,15 +32,15 @@ body{
 .search-box input{
     font-size: 15px;
     padding: 6px;
-    border: 2px solid #ccc;
+    border: 2px solid #000;
     background: transparent;
     border-radius: 4px;
-    color: #fff;
+    color: #000;
 }
 
 .search-box button{
     font-size: 15px;
-    background-color: #ffb92a;
+    background-color: #555852;
     border: none;
     font-weight: 500;
     border-radius: 6px;
@@ -56,7 +56,7 @@ img{
 }
 
 .details{
-    background-color: #ffb92a;
+    background-color: #555852;
     position: relative;
     text-align: center;
     padding: 10px 0;
@@ -78,7 +78,7 @@ img{
     position: relative;
     left: 76%;
     padding: 8px 12px;
-    background-color: #ffb92a;
+    background-color: #555852;
     border: none;
     top: 24px;
     border-radius: 6px;
@@ -89,7 +89,7 @@ img{
 
 #recipe{
     position: absolute;
-    background-color: #1e293b;
+    background-color: #fff;
     min-height: 100%;
     width: 100%;
     top: 0;
@@ -104,7 +104,7 @@ img{
     word-wrap: break-word;
     padding: 40px 24px 24px;
     font-size: 14px;
-    color: #fff;
+    color: #000000;
 }
 
 #hide-recipe{
@@ -112,7 +112,7 @@ img{
     position: relative;
     width: 28px;
     height: 28px;
-    background-color: #ffb92a;
+    background-color: #512aff;
     border: none;
     top: 18px;
     left: 91%;
@@ -122,7 +122,7 @@ img{
 }
 
 #show-recipe:hover, #hide-recipe:hover, .search-box button:hover{
-    background-color: #e69b00;
+    background-color: #555852;
 }
 
 ul{
@@ -132,13 +132,13 @@ ul{
     grid-template-columns: auto auto;
     gap: 12px 16px;
     padding: 16px 0 0 18px;
-    color: #ccc;
+    color: #000;
     text-transform: capitalize;
 }
 
 #ingre-container h3{
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 @media screen and(max-width: 500px) {
