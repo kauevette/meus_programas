@@ -10,7 +10,7 @@ let getMovie = () => {
     //Se o campo estiver vazio
 
     if (movieName.length <= 0) {
-        result.innerHTML = `<h3 class="msg">Please enter a movie name </h3>`;
+        result.innerHTML = `<h3 class="msg">Por favor digite o nome do filme</h3>`;
     }
 
     //Se o campo não estiver vazio
@@ -51,7 +51,7 @@ let getMovie = () => {
         })
             //Se ocorrer o erro
             .catch(() => {
-                result.innerHTML = `<h3 class="msg">Error Occured</h3>`;
+                result.innerHTML = `<h3 class="msg">Ocorreu um erro</h3>`;
             });
     }
 };
