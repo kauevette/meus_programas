@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    background-size: cover;
+    place-items: center;
+    background-color: #da99ff;
+    background-image: radial-gradient(at 88% 0%,
+      hsla(327, 67%, 64%, 1) 0px,
+      transparent 50%),
+    radial-gradient(at 63% 46%, hsla(307, 76%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 95% 53%, hsla(89, 91%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 79% 83%, hsla(170, 86%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 74% 93%, hsla(71, 93%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 13%, hsla(110, 83%, 72%, 1) 0px, transparent 50%);
+    color: #000;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    font-family: cursive;
+}
+
+.recover-container{
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    width: 90vh;
+    height: 50vh;
+    padding: 30px 30px 45px;
+    border-radius: 1.25rem;
+    background: #fff;
+    text-align: center;
+}
+
+.recover-container h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.recover-container p{
+    padding-top: 2px;
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+.recover-container form{
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recover-container input{
+    padding: .3rem;
+    border-radius: .6rem;
+    border: 2px solid #000;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    font-size: 1.2rem;
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 5px 0px 5px 0px;
+    background-color: rgb(68, 202, 255);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(51, 145, 182);
+    transition: all .5s ease;
+}
+
+form a{
+    text-decoration: none;
+    font-size: .85rem;
+    font-family: cursive;
+    color: #0077ff;
+}
+
+form a:hover{
+    color: #005d8f;
+    transition: all .3s ease;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    background-size: cover;
+    place-items: center;
+    background-color: #da99ff;
+    background-image: radial-gradient(at 88% 0%,
+      hsla(327, 67%, 64%, 1) 0px,
+      transparent 50%),
+    radial-gradient(at 63% 46%, hsla(307, 76%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 95% 53%, hsla(89, 91%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 79% 83%, hsla(170, 86%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 74% 93%, hsla(71, 93%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 13%, hsla(110, 83%, 72%, 1) 0px, transparent 50%);
+    color: #000;
+}
+
+.cadastro-container{
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    width: 90vh;
+    height: 90vh;
+    padding: 30px 30px 45px;
+    border-radius: 1.25rem;
+    background: #fff;
+    text-align: center;
+}
+
+.cadastro-container h1{
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: cursive;
+}
+
+.cadastro-container form{
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cadastro-container input{
+    padding: .6rem;
+    border-radius: .6rem;
+    border: 2px solid #000;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    font-size: 1.2rem;
+}
+
+input[type="submit"]{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 5px 0px 5px 0px;
+    background-color: rgb(68, 202, 255);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(51, 145, 182);
+    transition: all .5s ease;
+}
+
+form a{
+    text-decoration: none;
+    font-size: .85rem;
+    font-family: cursive;
+    color: #0077ff;
+}
+
+form a:hover{
+    color: #005d8f;
+    transition: all .3s ease;
+}
