@@ -23,16 +23,16 @@ body{
     width: 533px;
     height: 467px;
     position: absolute;
-    z-index: 1;
-    top: -25px;
-    left: 25%;
+    z-index: 2;
+    top: 5vh;
+    left: 48vh;
 }
 
 #sol{
     position: absolute;
-    z-index: 1;
-    top: -30px;
-    left: 6%;
+    z-index: 2;
+    top: -7vh;
+    left: 8vh;
     width: 453px;
     height: 371px;
 }
@@ -84,4 +84,16 @@ body{
     text-transform: capitalize;
     text-align: center;
     font-size: 5vh;
+    font-family: 'Lora';
+}
+
+.title h1{
+    position: absolute;
+    z-index: 2;
+    top: 25vh;
+    left: 32.5vh;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 4rem;
+    color: #fff;
 }
