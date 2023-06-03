@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ff993a;
+    display: grid;
+}
+
+/* div images */
+
+.images{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 85vh;
+    position: absolute;
+    top: 15vh;
+}
+
+#cover{
+    height: 85vh;
+    width: 100vw;
+}
+
+.shadow{
+    position: absolute;
+    height: 85vh;
+    width: 100vw;
+    background-color: #00000080;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 85vh;
+}
+
+/* div content-container */
+
+.content-container h1{
+    position: absolute;
+    left: 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 91vw;
+    font-size: 3.5rem;
+    font-family: 'Lora';
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.content-container button{
+    position: absolute;
+    z-index: 2;
+    background-color: #d68131;
+    border: 0;
+    height: 15vh;
+    width: 9vw;
+    display: grid;
+    grid-template-columns: 15vh;
+    grid-template-rows: 8.7vw;
+}
+
+.content-container img{
+    height: 15vh;
+    width: 8.2vw;
+}
+
+/* div content-information */
+
+.content-information{
+    position: absolute;
+    z-index: 2;
+    top: 15vh;
+    font-family: 'Lora';
+    color: #fff;
+    height: 85vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 85vh;
+    justify-items: center;
+}
+
+.content-information h1{
+    padding-top: 20px;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.content-information p{
+    position: absolute;
+    top: 10vh;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 10px 50px 10px 50px;
+}
+
+@media screen and (max-width: 420px) {
+    .images{
+        grid-template-columns: 100vw;
+        grid-template-rows: 90vh;
+        top: 10vh;
+    }
+    
+    #cover{
+        height: 90vh;
+        width: 100vw;
+    }
+    
+    .shadow{
+        height: 90vh;
+        width: 100vw;
+        grid-template-columns: 100vw;
+        grid-template-rows: 90vh;
+    }
+    
+    /* div content-container */
+    
+    .content-container h1{
+        left: 20vw;
+        height: 10vh;
+        width: 80vw;
+        font-size: 1.8rem;
+    }
+    
+    .content-container button{
+        height: 10vh;
+        width: 20vw;
+        grid-template-columns: 10vh;
+        grid-template-rows: 20vw;
+    }
+    
+    .content-container img{
+        height: 10vh;
+        width: 15vw;
+    }
+    
+    /* div content-information */
+    
+    .content-information{
+        top: 10vh;
+        height: 90vh;
+        grid-template-rows: 90vh;
+        justify-items: center;
+    }
+    
+    .content-information h1{
+        padding-top: 20px;
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .content-information p{
+        position: absolute;
+        top: 10vh;
+        font-size: 1.2rem;
+        text-align: justify;
+        padding: 10px 25px 10px 25px;
+    }
+}
+/* 2932 */
+
+@media screen and (max-height: 420px) {
+    .images{
+        grid-template-rows: 85vh;
+        top: 15vh;
+    }
+    
+    #cover{
+        height: 85vh;
+    }
+    
+    .shadow{
+        height: 85vh;
+        grid-template-rows: 90vh;
+    }
+    
+    /* div content-container */
+    
+    .content-container h1{
+        left: 10vw;
+        height: 15vh;
+        width: 90vw;
+        font-size: 2.5rem;
+    }
+    
+    .content-container button{
+        height: 15vh;
+        width: 10vw;
+        grid-template-columns: 15vh;
+        grid-template-rows: 10vw;
+    }
+    
+    .content-container img{
+        height: 15vh;
+        width: 10vw;
+    }
+    
+    /* div content-information */
+    
+    .content-information{
+        top: 15vh;
+        height: 85vh;
+        grid-template-rows: 85vh;
+        justify-items: center;
+    }
+    
+    .content-information h1{
+        padding-top: 10px;
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .content-information p{
+        position: absolute;
+        top: 10vh;
+        font-size: 1.2rem;
+        text-align: justify;
+        padding: 10px 25px 10px 25px;
+    }
+}

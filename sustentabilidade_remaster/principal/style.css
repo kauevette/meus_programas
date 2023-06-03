@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+
+body{
+    background-color: #ff993a;
+}
+
+/* div title */
+
+.title{
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Lora', sans-serif;
+    /* border: 1px solid #f00; */
+}
+
+/* div images */
+
+.images{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 65vh;
+}
+
+#cover{
+    position: absolute;
+    z-index: 1;
+    height: 65vh;
+    width: 100vw;
+}
+
+#central-lighting{
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    left: 42%;
+    transform: translate(-30%, -42%);
+    height: 50vh;
+    width: 50vw;
+}
+
+#sol-lighting{
+    position: absolute;
+    left: 12vh;
+    height: 30vh;
+    width: 30vw;
+    z-index: 1;
+}
+
+.shadow{
+    position: absolute;
+    height: 65vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: #00000080;
+}
+
+/* div topics */
+
+.topics{
+    height: 35vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 17.5vh 17.5vh;
+    gap: .5vh;
+    justify-items: center;
+    align-items: center;
+}
+
+.topics button{
+    padding: 5px 5px 5px 5px;
+    background-color: #D68131;
+    border-radius: 25px;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    height: 10vh;
+    width: 30vw;
+}
+
+.topics a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Lora';
+}
+
+@media screen and (max-width: 1256px) {
+    .topics button{
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .topics button{
+        width: 35vh;
+    }
+
+    #sol-lighting{
+        position: absolute;
+        left: 7vh;
+        height: 30vh;
+        width: 30vw;
+        z-index: 2;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .title{
+        top: 25%;
+        left: 25%;
+        transform: translate(-25%, -25%);
+        font-size: .8rem;
+    }
+
+    #cover{
+        height: 65vh;
+    }
+    
+    #central-lighting{
+        top: 27%;
+        left: 36%;
+        transform: translate(-27%, -36%);
+        height: 30vh;
+        width: 30vh;
+    }
+    
+    #sol-lighting{
+        left: 3vh;
+        height: 30vh;
+        width: 30vw;
+    }
+    
+    .shadow{
+        height: 65vh;
+    }
+    
+    .images{
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 50vh;
+    }
+    
+    .topics{
+        position: absolute;
+        top: 65vh;
+        height: 35vh;
+        width: 100vw;
+        gap: 0;
+        grid-template-rows: 17.5vh 17.5vh;
+    }
+    
+    .topics button{
+        height: 10vh;
+        width: 43vw;
+    }
+    
+    .topics a{
+        font-size: 1.6rem;
+    }
+}
+
+/* horizontal */
+
+@media screen and (max-height: 450px) {
+    .title{
+        top: 25%;
+        left: 25%;
+        transform: translate(-25%, -25%);
+        font-size: 1rem;
+    }
+
+    #cover{
+        height: 70vh;
+    }
+    
+    #central-lighting{
+        top: 33%;
+        left: 49%;
+        transform: translate(-33%, -49%);
+        height: 30vh;
+        width: 30vh;
+    }
+    
+    #sol-lighting{
+        left: 15vh;
+        height: 30vh;
+        width: 30vw;
+    }
+    
+    .shadow{
+        height: 70vh;
+    }
+    
+    .images{
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 70vh;
+    }
+    
+    .topics{
+        position: absolute;
+        top: 70vh;
+        height: 30vh;
+        gap: 0;
+        grid-template-rows: 15vh 15vh;
+    }
+    
+    .topics button{
+        height: 10vh;
+        width: 35vw;
+    }
+    
+    .topics a{
+        font-size: 1.6rem;
+    }
+}
