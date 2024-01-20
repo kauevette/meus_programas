@@ -1,0 +1,906 @@
+/* font-family: 'Black Ops One', system-ui;
+font-family: 'Bungee Spice', sans-serif;
+font-family: 'Lilita One', sans-serif;
+font-family: 'Salsa', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+}
+
+/* tela 1 */
+
+.tela1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #0063e5 0%, #0063e5 10%, #0000ff 50%, #0000ff 90%, #0000ff 100%);
+}
+
+.line11{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+    top: 2vh;
+}
+
+.line1-1{
+    position: absolute;
+    left: 5vw;
+}
+
+.line21{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+    color: #fff;
+}
+
+.line2-1{
+    position: absolute;
+    left: 20vw;
+}
+
+.line31{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.line3-1{
+    position: absolute;
+    left: 35vw;
+}
+
+.line41{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+    color: #fff;
+}
+
+.line4-1{
+    position: absolute;
+    left: 60vw;
+}
+
+.line51{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.line5-1{
+    width: 50%;
+    position: absolute;
+    top: 20vh;
+    left: 32vw;
+}
+
+.span1-1{
+    color: #fff;
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 8vh;
+    left: 8vw;
+}
+
+.icon1-1{
+    height: 200px;
+    width: 200px;
+}
+
+.img2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 70vh;
+    left: 25vw;
+}
+
+.icon2-1{
+    height: 200px;
+    width: 200px;
+}
+
+/* Tela 2 */
+
+.tela2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #0000ff 0%, #0000ff 10%, #0000ff 50%, #0063e5 77%, #0063e5 100%);
+}
+
+.line12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.line1-2{
+    position: absolute;
+    left: 5vw;
+}
+
+.line22{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.line2-2{
+    position: absolute;
+    left: 22vw;
+}
+
+.line32{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.line3-2{
+    position: absolute;
+    left: 50vw;
+}
+
+.line42{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.line4-2{
+    position: absolute;
+    top: 40vh;
+}
+
+.span1-2{
+    color: #fff;
+}
+
+.span2-2{
+    color: #fff;
+}
+
+/* Div 3 */
+
+.tela3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #e7f7fd 0%, #e7f7fd 10%, #e7f7fd 50%, #0000ff 77%, #0000ff 100%);
+    /* background-image: linear-gradient(0deg, #e7f7fd 0%, #e7f7fd 10%, #e7f7fd 50%, #0063e5 75%, #0063e5 100%); */
+}
+
+.line13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 5vh;
+}
+
+.line23{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 65vh;
+    right: 26vw;
+}
+
+.line33{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 59vh;
+}
+
+.line43{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 275vh;
+    left: 66vw;
+}
+
+.img13{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 238vh;
+    left: 15vw;
+}
+
+.img23{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 238vh;
+    left: 40vw;
+}
+
+.img33{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 238vh;
+    left: 65vw;
+}
+
+.img13 img,
+.img23 img,
+.img33 img{
+    height: 350px;
+    width: 350px;
+}
+
+.icon13{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 215vh;
+    left: 20vw;
+}
+
+.icon23{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 220vh;
+    left: 45vw;
+}
+
+.icon33{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 215vh;
+    left: 70vw;
+}
+
+.icon13 img,
+.icon23 img,
+.icon33 img{
+    height: 150px;
+    width: 150px;
+}   
+
+/* Tela 4 */
+
+.tela4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #0000ff 0%, #0000ff 13%, #e7f7fd 60%, #e7f7fd 100%);
+}
+
+.line14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.line24{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.line2-4{
+    width: 70%;
+    text-align: center;
+    margin-top: 5vh;
+} 
+
+.span1-4{
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+.img14{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 350vh;
+    left: 25vw;
+}
+
+.img24{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 350vh;
+    right: 25vw;
+}
+
+.img14 img,
+.img24 img{
+    width: 150px;
+    height: 150px;
+}
+
+.line34{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 370vh;
+    left: 13vw;
+}
+
+.gradiente4{
+    background-image: linear-gradient(0deg, #070756 41%, #000 55%);
+    color: transparent;
+    background-clip: text;
+}
+
+.line44{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 370vh;
+    right: 13vw;
+}
+
+/* Tela 5 */
+
+.tela5{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, #000000 0%, #000000 47%, #0000ff 90%, #0000ff 100%);
+}
+
+.line15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 410vh;
+}
+
+.line1-5{
+    width: 30%;
+    text-align: center;
+}
+
+.line25{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 455vh;
+    left: 15vw;
+    color: #0e0ee8;
+}
+
+.line35{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 455vh;
+    left: 43vw;
+    color: #0e0ee8;
+}
+
+.line45{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 455vh;
+    left: 73vw;
+    color: #0e0ee8;
+}
+
+.line55{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 485vh;
+    left: 16vw;
+    color: #0e0ee8;
+}
+
+.line65{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 485vh;
+    left: 44vw;
+    color: #0e0ee8;
+}
+
+.line75{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 485vh;
+    left: 76vw;
+    color: #0e0ee8;
+}
+
+.img15 img,
+.img25 img,
+.img35 img,
+.img45 img,
+.img55 img,
+.img65 img{
+    filter: brightness(0) invert(1);
+    width: 150px;
+    height: 150px;
+}
+
+.img15{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 440vh;
+    left: 15vw;
+}
+
+.img25{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 440vh;
+    left: 45vw;
+}
+
+.img35{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 440vh;
+    left: 75vw;
+}
+
+.img45{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 470vh;
+    left: 15vw;
+}
+
+.img55{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 470vh;
+    left: 45vw;
+}
+
+.img65{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 470vh;
+    left: 75vw;
+}
+
+/* Tela 6 */
+
+.tela6{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, #0000ff 0%, #000000 68%, #000000 100%);
+}
+
+.line16{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 505vh;
+}
+
+.line1-6{
+    width: 30%;
+    text-align: center;
+}
+
+.line26{
+    font-family: 'Salsa', cursive;
+    text-transform: capitalize;
+    font-size: 3rem;
+    width: 100%;
+    position: absolute;
+    top: 527vh;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    gap: 10px;
+    color: #fff;
+}
+
+.column{
+    padding: 10px;
+    text-align: start;
+}
+
+.span1-6{
+    color: #0e0ee8;
+}
+
+/* Tela 7 */
+
+.tela7{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, #000000 0%, #000000 20%, #0000ff 68%, #0000ff 100%);
+}
+
+.line17{
+    font-family: 'Salsa', cursive;
+    text-transform: capitalize;
+    font-size: 3rem;
+    width: 100%;
+    position: absolute;
+    top: 600vh;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    gap: 10px;
+    color: #fff;
+}
+
+.column1{
+    padding: 10px;
+    text-align: start;
+}
+
+.line27{
+    display: flex;
+    justify-content: center;
+    font-family: 'Salsa', cursive;
+    text-transform: capitalize;
+    font-size: 3rem;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 665vh;
+}
+
+.tela7 .acesso{
+    top: 80vh;
+}
+
+/* Tela 8 */
+
+.tela8{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #ffffff 0%, #000000 52%, #000000 100%);
+}
+
+.line18{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #0e0ee8;
+    position: absolute;
+    top: 700vh;
+}
+
+.line1-8{
+    width: 90%;
+    text-align: center;
+}
+
+.span1-7{
+    background-image: linear-gradient(0deg, #fff 3%, #0000ff 72%);
+    color: transparent;
+    background-clip: text;
+    font-family: 'Salsa', cursive;
+}
+
+.line28{
+    display: flex;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 728vh;
+    left: 20vw;
+}
+
+.line2-8{
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.icon18{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 727vh;
+    left: 12vw;
+}
+
+.icon18 img{
+    width: 150px;
+    height: 150px;
+    filter: brightness(0) invert(1);
+}
+
+.line38{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 745vh;
+}
+
+.line3-8{
+    background-image: linear-gradient(0deg, #fff 1%, #0000ff 52%);
+    color: transparent;
+    background-clip: text;
+}
+
+.line48{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 12vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    position: absolute;
+    top: 757vh;
+    font-weight: bold;
+}
+
+.line4-8 span,
+.line5-8 span,
+.line6-8 span{
+    background-image: linear-gradient(0deg, #000 100%, #fff 0%);
+    color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+/* Tela 9 */
+
+.tela9{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #000000 0%, #000000 37%, #ffffff 100%);
+}
+
+.line19{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 12vh;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+    font-size: 3rem;
+    position: absolute;
+    top: 800vh;
+    font-weight: bold;
+}
+
+.line1-9 span,
+.line2-9 span,
+.line3-9 span,
+.line4-9 span{
+    background-image: linear-gradient(0deg, #000 100%, #fff 0%);
+    color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+.line29{
+    display: flex;
+    align-items: center;    
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 860vh;
+    left: 35vw;
+}
+
+.line5-9{
+    width: 90%;
+    text-align: justify;
+    background-image: linear-gradient(0deg, #fff 100%, #000 0%);
+    color: transparent;
+    background-clip: text;
+}
+
+.img19{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 850vh;
+    left: 6vw;
+}
+
+.img19 img{
+    height: 500px;
+    width: 500px;
+}
+
+
+/* Botões comprar */
+
+.acesso{
+    background-color: #000;
+    cursor: pointer;
+    height: 10vh;
+    width: 30vw;
+    border: none;
+    position: relative;
+    top: 5vh;
+    left: 35vw;
+    font-size: 2.5rem;
+}
+
+.tela3 .acesso{
+    top: 65vh;
+}
+
+.gradiente-text{
+    background-image: linear-gradient(to top, #e7f7fd 10%, #e7f7fd 50%, #0063e5 77%);
+    color: transparent;
+    background-clip: text;
+    font-family: 'Bungee Spice', sans-serif;
+    text-transform: uppercase;
+}
+
+.tela4 .gradiente-text{
+    background-image: linear-gradient(0deg, #0000ff 10%, #000 59%);
+}
